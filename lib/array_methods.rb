@@ -11,17 +11,3 @@ def find_min_value(array)
   # Add your solution here
 end
 
-def find_element_index(array, value_to_find)
-  array.length.times { |value_to_find|
-    puts value_to_find.index
-  }
-end
-
-
-
-def find_element_index(array, value_to_find)
-  index = array.index(value_to_find)
-  while array.include?(index) do 
-    puts array.index(value_to_find)
-  end
-end
